@@ -1,6 +1,8 @@
 import { NP } from "@/lib/constants/strings";
 import "./globals.css";
 
+require('dotenv').config()
+
 export const metadata = {
     title: NP.NAME,
     description: NP.TAGLINE,

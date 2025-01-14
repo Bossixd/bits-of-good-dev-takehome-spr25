@@ -5,8 +5,7 @@ const Joi = require("joi");
 import { ObjectId } from "mongodb";
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
-const uri =
-    "mongodb+srv://admin:p%40ssword@pattakitcluster.xdeby.mongodb.net/?retryWrites=true&w=majority&appName=PattakitCluster";
+const uri = process.env.MONGODB_URI;
 
 const client = new MongoClient(uri, {
     serverApi: {
