@@ -3,7 +3,7 @@
 <!-- Make sure you fill out this checklist with what you've done before submitting! -->
 
 - [X] Read the README [please please please]
-- [ ] Something cool!
+- [X] Something cool!
 - [X] Back-end
   - [X] Minimum Requirements
     - [X] Setup MongoDB database
@@ -16,7 +16,7 @@
   - [X] Above and Beyond
     - [X] Batch edits
     - [X] Batch deletes
-- [ ] Front-end
+- [X] Front-end
   - [X] Minimum Requirements
     - [X] Dropdown component
     - [X] Table component
